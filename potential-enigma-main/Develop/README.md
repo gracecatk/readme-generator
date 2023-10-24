@@ -1,6 +1,0 @@
-# weee
-
-## Description
-weee
-## License
-

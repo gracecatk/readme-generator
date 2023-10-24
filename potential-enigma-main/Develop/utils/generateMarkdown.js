@@ -24,7 +24,7 @@ function renderLicenseSection(license) {
   if (license) {
     return `This project is licensed under the [${license} License](${renderLicenseLink(license)}).`;
   } else {
-    return ''; // No license provided
+    return 'No license provided';
   }
 }
 function generateMarkdown(data) {
