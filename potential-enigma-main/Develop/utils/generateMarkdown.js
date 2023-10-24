@@ -27,6 +27,7 @@ function renderLicenseSection(license) {
     return 'No license provided';
   }
 }
+
 function generateMarkdown(data) {
   return `# ${data.title}
 ${renderLicenseBadge(data.license)}
@@ -46,9 +47,14 @@ ${(data.contributing)}
 ${(data.tests)}
 ## Questions
 ${(data.questions)}
+## Github
+You can find my GitHub profile [here](https://github.com/${data.github}).
+## Email
+You can contact me via email at [${data.email}](mailto:${data.email}).
+
 `;
 }
 module.exports = generateMarkdown;
 
 
-//a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
+//a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions, github
