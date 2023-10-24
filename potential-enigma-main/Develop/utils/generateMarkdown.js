@@ -34,7 +34,14 @@ ${renderLicenseBadge(data.license)}
 ## Description
 ${data.description}
 ## Table Of Contents
-${(data.tableofcontents)}
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+- [GitHub](#github)
+- [Email](#email)
 ## Installation
 ${(data.installations)}
 ## Usage
