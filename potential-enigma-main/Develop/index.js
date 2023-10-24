@@ -8,42 +8,42 @@ const generateMarkdown = require('./utils/generateMarkdown'); // Import the gene
 const questions = [
   {
     type: 'input',
-    name: 'Title',
+    name: 'title',
     message: 'Enter the title of your project: ',
   },
   {
     type: 'input',
-    name: 'Description',
+    name: 'description',
     message: 'Provide a brief description of your project: ',
   },
   {
     type: 'input',
-    name: 'Table of contents',
+    name: 'table of contents',
     message: 'Provide a table of contents for your project: ',
   },
   {
     type: 'input',
-    name: 'Installations',
+    name: 'installations',
     message: 'Provide Installations used if any: ',
   },
   {
     type: 'input',
-    name: 'Usage',
+    name: 'usage',
     message: 'What is the usage of your project?: ',
   },
   {
     type: 'input',
-    name: 'Contributing',
+    name: 'contributing',
     message: 'Provide any contributions: ',
   },
   {
     type: 'input',
-    name: 'Tests',
+    name: 'tests',
     message: 'Provide any tests: ',
   },
   {
     type: 'input',
-    name: 'Questions',
+    name: 'questions',
     message: 'Provide any questions: ',
   },
 ];

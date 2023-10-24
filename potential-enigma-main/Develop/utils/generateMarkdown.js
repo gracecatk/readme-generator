@@ -32,8 +32,23 @@ function generateMarkdown(data) {
 ${renderLicenseBadge(data.license)}
 ## Description
 ${data.description}
+## Table Of Contents
+${(data.tableofcontents)}
+## Installation
+${(data.installations)}
+## Usage
+${(data.usage)}
 ## License
 ${renderLicenseSection(data.license)}
+## Contributing
+${(data.contributing)}
+## Tests
+${(data.tests)}
+## Questions
+${(data.questions)}
 `;
 }
 module.exports = generateMarkdown;
+
+
+//a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
