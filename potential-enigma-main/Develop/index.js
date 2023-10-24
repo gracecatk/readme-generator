@@ -4,7 +4,7 @@ const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown'); // Import the generateMarkdown function
 
 
-// TODO: Create an array of questions for user input
+// TODO: Create an array of questions for user input - a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
 const questions = [
   {
     type: 'input',
@@ -24,31 +24,31 @@ const questions = [
   {
     type: 'input',
     name: 'Installations',
-    message: 'Provide a brief description of your project: ',
+    message: 'Provide Installations used if any: ',
   },
   {
     type: 'input',
     name: 'Usage',
-    message: 'Provide a brief description of your project: ',
+    message: 'What is the usage of your project?: ',
   },
   {
     type: 'input',
     name: 'Contributing',
-    message: 'Provide a brief description of your project: ',
+    message: 'Provide any contributions: ',
   },
   {
     type: 'input',
     name: 'Tests',
-    message: 'Provide a brief description of your project: ',
+    message: 'Provide any tests: ',
   },
   {
     type: 'input',
     name: 'Questions',
-    message: 'Provide a brief description of your project: ',
+    message: 'Provide any questions: ',
   },
 ];
 
-// TODO: Create a function to write README file- a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
+// TODO: Create a function to write README file- 
 function writeToFile(fileName, data) {
   // Use the fs module to write the data to a file with the given filename
   fs.writeFile(fileName, data, (err) => {
